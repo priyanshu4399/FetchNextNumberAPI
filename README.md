@@ -2,6 +2,7 @@
 
 Assumptions
 1. Availability of database
+
 Requirements
 2. The API FetchNextNumber shall take a CategoryCode as parameter in JSON
 3. Search a table where CategoryCode and value are stored and fetch value. [No result
