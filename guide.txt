@@ -1,0 +1,19 @@
+http://localhost:8080/FetchNextNumber/ >> Fetches the available number and next number.
+
+1.Open Postman 
+
+2.Select PUT request and in url insert "http://localhost:8080/FetchNextNumber"
+
+3. inside Body send JSON data with category code as "abc" as shown below:
+    {
+      "categoryCode : "abc"
+    }
+    
+ 4. Press Send
+ 
+ OUTPUT :
+ 
+ {
+    "Old value" : 10;
+    "New value" : 19
+ }
