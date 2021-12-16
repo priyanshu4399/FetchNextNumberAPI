@@ -1,7 +1,6 @@
 package com.priyanshu.fetchApi.service;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,6 +37,12 @@ public class MyNumberServiceImpl implements MyNumberService {
 			}
 		}
 		
+		//Introducing a delay of 5 seconds overall to the minimum.
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		return ans;
 	}
 	
